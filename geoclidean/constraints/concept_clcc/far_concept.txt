@@ -1,0 +1,4 @@
+'c1 = circle(p1(), p2())',
+'l2 = line(p3(c1), p4())',
+'c3 = circle(p5(c1), p6())',
+'c4 = circle(p7(c1), p8())',
