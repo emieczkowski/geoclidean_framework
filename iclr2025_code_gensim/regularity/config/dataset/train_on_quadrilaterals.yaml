@@ -1,0 +1,66 @@
+name: quadrilaterals
+load:
+  contrastive_tform: False
+  tforms: 
+    CenterCrop:
+      _target_: torchvision.transforms.CenterCrop
+      size: [300, 300]
+    Resize:
+      _target_: torchvision.transforms.Resize
+      size: [225, 225]
+      antialias: false
+    Grayscale:
+      _target_: torchvision.transforms.Grayscale
+      num_output_channels: 3
+train:
+  shuffle: True
+  batch_size: 64
+  contrastive_tform: True
+  tforms: 
+    RandomRotation:
+      _target_: torchvision.transforms.RandomRotation
+      degrees: [-45, 45]
+      fill: 0
+    RandomCenterCrop:
+      _target_: dataset.RandomCenterCrop
+      crop_min: 200
+      crop_max: 300
+    Resize:
+      _target_: torchvision.transforms.Resize
+      size: [225, 225]
+      antialias: false
+    RandomHorizontalFlip:
+      _target_: torchvision.transforms.RandomHorizontalFlip
+      p: 0.5
+    RandomVerticalFlip:
+      _target_: torchvision.transforms.RandomVerticalFlip
+      p: 0.5
+    Grayscale:
+      _target_: torchvision.transforms.Grayscale
+      num_output_channels: 3
+test:
+  shuffle: False
+  batch_size: 128
+  contrastive_tform: False
+  tforms: 
+    RandomRotation:
+      _target_: torchvision.transforms.RandomRotation
+      degrees: [-45, 45]
+      fill: 0
+    RandomCenterCrop:
+      _target_: dataset.RandomCenterCrop
+      crop_min: 200
+      crop_max: 300
+    Resize:
+      _target_: torchvision.transforms.Resize
+      size: [225, 225]
+      antialias: false
+    RandomHorizontalFlip:
+      _target_: torchvision.transforms.RandomHorizontalFlip
+      p: 0.5
+    RandomVerticalFlip:
+      _target_: torchvision.transforms.RandomVerticalFlip
+      p: 0.5
+    Grayscale:
+      _target_: torchvision.transforms.Grayscale
+      num_output_channels: 3

@@ -9,7 +9,7 @@ import shapely
 from shapely.ops import substring
 
 
-CANVAS_SIZE = 16
+CANVAS_SIZE = 64
 
 class GeoclideanPoint:
     def __init__(self, name, obj_constraints):
@@ -209,4 +209,19 @@ def generate_concept(rules, mark_points=False, steps_path=None, path=None, show_
         except:
             plt.close()
             continue 
+            
+
+def generate_objects_from_concept(rules, mark_points=False, visibility_threshold=400):
+    """
+    Generates Shapely objects based on rules, performs visibility test, and returns the objects.
+    Retries until a valid, visible set of objects is generated.
+    """
+    while True:
+        try:
+            all_viewable_objs = render(rules, mark_points)
+            if visibility_test(all_viewable_objs, threshold=visibility_threshold):
+                return all_viewable_objs
+        except Exception as e:
+            print(f"    Error during generation/visibility: {e}. Retrying concept...") 
+        plt.close() # Ensure plot is closed on failure/retry
             

@@ -1,0 +1,18 @@
+task_name: trainQuads
+seed: 8888
+n_threads: 4
+use_gpu: True
+human_conditions: ['1st_graders', 'french_adults_1', 'french_adults_2', 'himbas', 'preschoolers'] 
+monkey_conditions: ['ARIELLE', 'CAUDET', 'EWINE', 'FANA',  'FEYA',  'LIPS',  'LOME',  'MAKO',  'MALI',  'MUSE']
+shapes: ['square', 'rectangle', 'losange', 'parallelogram', 'rightKite', 'isoTrapezoid', 'kite', 'rustedHinge', 'hinge', 'trapezoid', 'random']
+train_all_shapes: False      # Whether to train on all shapes or just the 11 canonical quadrilaterals
+gen_synthetic_trials: False  # Whether to generate oddball trials.
+defaults:
+  - model: SimCLR
+  - dataset: train_on_quadrilaterals.yaml
+  - paths: default
+  - callbacks: default
+  - trainer: default
+  - hydra: default
+  - logger: default
+  - _self_

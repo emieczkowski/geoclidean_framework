@@ -1,0 +1,26 @@
+name: quadrilaterals
+load:
+  shuffle: False
+  batch_size: 256
+  contrastive_tform: False
+  tforms:
+    CenterCrop:
+      _target_: torchvision.transforms.CenterCrop
+      size: [300, 300]
+    Resize:
+      _target_: torchvision.transforms.Resize
+      size: [225, 225]
+      antialias: false
+    Grayscale:
+      _target_: torchvision.transforms.Grayscale
+      num_output_channels: 3
+train:
+  shuffle: True
+  batch_size: 1024
+  contrastive_tform: False
+  tforms: False
+test:
+  shuffle: True
+  batch_size: 1024
+  contrastive_tform: False
+  tforms: False

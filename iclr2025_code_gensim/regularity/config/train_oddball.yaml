@@ -1,0 +1,18 @@
+task_name: trainOddballQuads
+seed: 8888
+n_threads: 4
+use_gpu: True
+human_conditions: ['1st_graders', 'french_adults_1', 'french_adults_2', 'himbas', 'preschoolers'] 
+monkey_conditions: ['ARIELLE', 'CAUDET', 'EWINE', 'FANA',  'FEYA',  'LIPS',  'LOME',  'MAKO',  'MALI',  'MUSE', 'VIOLETTE']
+shapes: ['square', 'rectangle', 'losange', 'parallelogram', 'rightKite', 'isoTrapezoid', 'kite', 'rustedHinge', 'hinge', 'trapezoid', 'random']
+train_all_shapes: True
+gen_synthetic_trials: True
+defaults:
+  - model: OddballLitModule
+  - dataset: train_abstract
+  - paths: default
+  - callbacks: default
+  - trainer: default
+  - hydra: default
+  - logger: default
+  - _self_

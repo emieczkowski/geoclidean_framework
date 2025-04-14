@@ -1,0 +1,7 @@
+_target_: models.ContrastiveLitModule
+max_epochs: 250
+hidden_dim: 128
+symbolic_target: True
+lr: 1e-4 #4e-3
+temperature: 0.07
+weight_decay: 1e-8
