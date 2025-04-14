@@ -1,0 +1,212 @@
+{
+  "rule_001": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_002": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_003": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_004": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_005": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_006": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_007": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_008": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_009": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  },
+  "rule_010": {
+    "rule": "two_circles_intersecting_line",
+    "images": [
+      {
+        "filename": "inlier_0.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_1.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "inlier_2.png",
+        "label": "inlier"
+      },
+      {
+        "filename": "outlier.png",
+        "label": "outlier"
+      }
+    ]
+  }
+}
