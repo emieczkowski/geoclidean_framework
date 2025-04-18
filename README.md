@@ -1,3 +1,45 @@
+
+## Relational Match Task 
+
+### 1. Generate Dataset
+First, generate the relational match dataset:
+```bash
+python relational_match_task.py
+```
+This will create:
+- `data_relational_match/train/` - Training images
+- `data_relational_match/test/` - Test images
+- `data_relational_match/train_labels.csv` - Initial labels
+
+### 2. Prepare Final Dataset
+Next, prepare the final dataset splits:
+```bash
+python prepare_final_dataset.py
+```
+This creates:
+- `data_relational_match/train_labels_final.csv`
+- `data_relational_match/test_labels_final.csv`
+
+### 3. Train VGG Model
+Train the VGG-based relational matching model:
+```bash
+python train_vgg_relational.py
+```
+The script includes:
+- Early stopping based on validation loss
+- Checkpoints saved to `checkpoints/vgg_relational/`
+- Final metrics saved to `results/vgg_relational/`
+
+## Dataset Structure
+
+Each generated image contains:
+- Standard panel (top-left)
+- Match panel (bottom-left)
+- Foil panel (bottom-right)
+
+The task is to identify which bottom panel (Match or Foil) shares the same geometric relationship as the Standard panel.
+
+
 # Geoclidean: Few-Shot Generalization in Euclidean Geometry
 
 ![demonstrative figure](images/data_examples.png)
