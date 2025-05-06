@@ -1,0 +1,9 @@
+torch
+torchvision
+pytorch-lightning
+numpy
+pandas
+matplotlib
+scikit-learn
+shapely
+Pillow # For PIL Image handling 
