@@ -1,34 +1,24 @@
 
-## Relational Match Task 
+## Odd One Out Models
 
-### 1. Generate Dataset
+### BNN OOO 
+    ```
+    python bnn_ooo_task.py
+    ```
+
+
+## Relational Match Task (RMS)
+
+### Generate Dataset
 First, generate the relational match dataset:
-```bash
-python relational_match_task.py
+```
+python generate_concepts_relmatch.py
 ```
 This will create:
-- `data_relational_match/train/` - Training images
-- `data_relational_match/test/` - Test images
-- `data_relational_match/train_labels.csv` - Initial labels
-
-### 2. Prepare Final Dataset
-Next, prepare the final dataset splits:
-```bash
-python prepare_final_dataset.py
-```
-This creates:
-- `data_relational_match/train_labels_final.csv`
-- `data_relational_match/test_labels_final.csv`
-
-### 3. Train VGG Model
-Train the VGG-based relational matching model:
-```bash
-python train_vgg_relational.py
-```
-The script includes:
-- Early stopping based on validation loss
-- Checkpoints saved to `checkpoints/vgg_relational/`
-- Final metrics saved to `results/vgg_relational/`
+- `data_concepts_relmatch_loaded/train/` - Training images
+- `data_concepts_relmatch_loaded/test/` - Test images
+- `data_concepts_relmatch_loaded/train_labels.csv` - ground truth training labels
+- 'data_concepts_relmatch_loaded/test_labels.csv' - ground truth testing labels
 
 ## Dataset Structure
 
@@ -39,8 +29,19 @@ Each generated image contains:
 
 The task is to identify which bottom panel (Match or Foil) shares the same geometric relationship as the Standard panel.
 
+### Train VGG baseline Models
+Train the VGG-based relational matching models :
+```
+python train_encoder_then_gmm.py
+```
+The script trains and evalutes the linear regression, CNN, and GMM models. 
 
-# Geoclidean: Few-Shot Generalization in Euclidean Geometry
+### Train BNN/Contrastive Models
+python train_bnn_kl.py 
+python train_contrastive.py
+
+
+# (ORIGINAL README) Geoclidean: Few-Shot Generalization in Euclidean Geometry
 
 ![demonstrative figure](images/data_examples.png)
 
