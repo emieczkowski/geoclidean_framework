@@ -39,6 +39,23 @@ Each generated image contains:
 
 The task is to identify which bottom panel (Match or Foil) shares the same geometric relationship as the Standard panel.
 
+## Odd-One-Out Detection
+
+### 1. Generate Dataset
+
+First, generate the OOOD dataset using the iPynb notebook:
+```bash
+Expt1_OddOneOut_Dataset.ipynb
+```
+
+This will create a data folder with subfolders corresponding to each generative concept/rule.
+
+### 2. CNN Baseline
+
+Next, evaluate the CNN baseline and generate the train-test split using:
+```bash
+Expt1_OddOneOut_CNN.ipynb
+```
 
 # Geoclidean: Few-Shot Generalization in Euclidean Geometry
 
