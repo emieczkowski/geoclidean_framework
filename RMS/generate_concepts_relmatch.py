@@ -13,6 +13,11 @@ import shapely # Add shapely for isinstance check
 import glob # For finding concept directories
 import traceback # For detailed error printing
 
+'''
+generates all RMS task data from scratch using Geoclidean
+'''
+
+
 # --- Configuration ---
 OUTPUT_DIR = "data_concepts_relmatch_loaded" # New output dir to avoid overwriting old
 GEOCLIDEAN_ELEMENTS_DIR = "geoclidean/elements" # Base dir for author concepts
