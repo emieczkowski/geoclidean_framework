@@ -5,6 +5,9 @@
 To generate the OOOD dataset, run cells in Expt1_OddOneOut_Dataset.ipynb
 
 ### Dataset Structure
+
+Data will appear in the /data folder. Each subfolder corresponds to a different generative concept/rule.
+
 ### Train VGG baseline Models
 
 To create the train-test split and evaluate baseline CNNs, run cells in Expt1_OddOneOut_CNN.ipynb
