@@ -11,9 +11,7 @@
     Run cells in GMM_odd_one_out.ipynb
     
 ### Train Bayesian Neural Network  
-    ```
     python bnn_ooo_task.py
-    ```
 
 
 ## Relational Match Task (RMS)
