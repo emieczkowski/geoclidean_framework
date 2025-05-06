@@ -1,7 +1,20 @@
 
 ## Odd One Out Models
+### Generate Dataset
+## Dataset Structure
+### Train VGG baseline Models
 
-### BNN OOO 
+### Train VAE  
+    ```
+    Run cells in VAE_odd_one_out.ipynb
+    ```
+    
+### Train GMM  
+    ```
+    Run cells in GMM_odd_one_out.ipynb
+    ```
+    
+### Train Bayesian Neural Network  
     ```
     python bnn_ooo_task.py
     ```
