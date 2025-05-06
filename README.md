@@ -1,8 +1,13 @@
 
 ## Odd One Out Models
 ### Generate Dataset
+
+To generate the OOOD dataset, run cells in Expt1_OddOneOut_Dataset.ipynb
+
 ### Dataset Structure
 ### Train VGG baseline Models
+
+To create the train-test split and evaluate baseline CNNs, run cells in Expt1_OddOneOut_CNN.ipynb
 
 ### Train VAE  
     Run cells in VAE_odd_one_out.ipynb
