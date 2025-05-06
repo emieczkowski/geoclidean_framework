@@ -37,9 +37,12 @@ python train_encoder_then_gmm.py
 The script trains and evalutes the linear regression, CNN, and GMM models. 
 
 ### Train BNN/Contrastive Models
+```
 python train_bnn_kl.py 
+```
+```
 python train_contrastive.py
-
+```
 
 # (ORIGINAL README) Geoclidean: Few-Shot Generalization in Euclidean Geometry
 
