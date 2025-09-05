@@ -1,0 +1,48 @@
+{
+  "concept_name": "concept_concentric_circles",
+  "total_episodes": 5,
+  "inliers_per_episode": 5,
+  "outliers_per_episode": 1,
+  "episodes": [
+    {
+      "concept_name": "concept_concentric_circles",
+      "episode_idx": 0,
+      "filename": "episode_0000.png",
+      "outlier_position": 1,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_concentric_circles",
+      "episode_idx": 1,
+      "filename": "episode_0001.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_concentric_circles",
+      "episode_idx": 2,
+      "filename": "episode_0002.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_concentric_circles",
+      "episode_idx": 3,
+      "filename": "episode_0003.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_concentric_circles",
+      "episode_idx": 4,
+      "filename": "episode_0004.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    }
+  ]
+}

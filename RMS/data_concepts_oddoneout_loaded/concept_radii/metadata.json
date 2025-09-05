@@ -1,0 +1,384 @@
+{
+  "concept_name": "concept_radii",
+  "total_episodes": 47,
+  "inliers_per_episode": 5,
+  "outliers_per_episode": 1,
+  "episodes": [
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 0,
+      "filename": "episode_0000.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 1,
+      "filename": "episode_0001.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 2,
+      "filename": "episode_0002.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 3,
+      "filename": "episode_0003.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 4,
+      "filename": "episode_0004.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 5,
+      "filename": "episode_0005.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 6,
+      "filename": "episode_0006.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 7,
+      "filename": "episode_0007.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 8,
+      "filename": "episode_0008.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 9,
+      "filename": "episode_0009.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 11,
+      "filename": "episode_0011.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 12,
+      "filename": "episode_0012.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 13,
+      "filename": "episode_0013.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 14,
+      "filename": "episode_0014.png",
+      "outlier_position": 1,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 15,
+      "filename": "episode_0015.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 16,
+      "filename": "episode_0016.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 17,
+      "filename": "episode_0017.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 18,
+      "filename": "episode_0018.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 19,
+      "filename": "episode_0019.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 20,
+      "filename": "episode_0020.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 22,
+      "filename": "episode_0022.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 23,
+      "filename": "episode_0023.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 24,
+      "filename": "episode_0024.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 25,
+      "filename": "episode_0025.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 26,
+      "filename": "episode_0026.png",
+      "outlier_position": 1,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 27,
+      "filename": "episode_0027.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 28,
+      "filename": "episode_0028.png",
+      "outlier_position": 1,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 29,
+      "filename": "episode_0029.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 30,
+      "filename": "episode_0030.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 31,
+      "filename": "episode_0031.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 32,
+      "filename": "episode_0032.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 33,
+      "filename": "episode_0033.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 34,
+      "filename": "episode_0034.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 35,
+      "filename": "episode_0035.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 36,
+      "filename": "episode_0036.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 38,
+      "filename": "episode_0038.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 39,
+      "filename": "episode_0039.png",
+      "outlier_position": 2,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 40,
+      "filename": "episode_0040.png",
+      "outlier_position": 1,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 41,
+      "filename": "episode_0041.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 42,
+      "filename": "episode_0042.png",
+      "outlier_position": 5,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 43,
+      "filename": "episode_0043.png",
+      "outlier_position": 4,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 44,
+      "filename": "episode_0044.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 45,
+      "filename": "episode_0045.png",
+      "outlier_position": 0,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 46,
+      "filename": "episode_0046.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 47,
+      "filename": "episode_0047.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 48,
+      "filename": "episode_0048.png",
+      "outlier_position": 3,
+      "num_inliers": 5,
+      "num_outliers": 1
+    },
+    {
+      "concept_name": "concept_radii",
+      "episode_idx": 49,
+      "filename": "episode_0049.png",
+      "outlier_position": 1,
+      "num_inliers": 5,
+      "num_outliers": 1
+    }
+  ]
+}

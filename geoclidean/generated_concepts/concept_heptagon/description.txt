@@ -1,0 +1,1 @@
+Regular 7-sided polygon with close (extra point) and far (broken closure) variations

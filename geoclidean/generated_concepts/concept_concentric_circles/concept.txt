@@ -1,0 +1,2 @@
+'c1 = circle(p1(), p2())'
+'c2 = circle(p1(), p3(c1))'

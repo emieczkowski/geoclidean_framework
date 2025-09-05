@@ -1,0 +1,1 @@
+Secant lines through circle with variations

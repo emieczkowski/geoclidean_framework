@@ -20,7 +20,7 @@ generates all RMS task data from scratch using Geoclidean
 
 # --- Configuration ---
 OUTPUT_DIR = "data_concepts_relmatch_loaded" # New output dir to avoid overwriting old
-GEOCLIDEAN_ELEMENTS_DIR = "geoclidean/elements" # Base dir for author concepts
+GEOCLIDEAN_ELEMENTS_DIR = "../geoclidean/elements" # Base dir for author concepts
 NUM_TRAIN_IMAGES = 800 # Generate fewer examples for testing
 NUM_TEST_IMAGES = 200   # Generate fewer examples for testing
 MAX_GENERATION_ATTEMPTS = 50 # Increase attempts slightly maybe?
